@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SalesWebMvc</title>
+    <title>@ViewData["Title"]  Sales Web</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-cerulean.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-united.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SalesWebMvc</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SalesWeb</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -36,6 +36,8 @@
                     <li><a asp-area="" asp-controller="SalesRecords" asp-action="Index">Sales</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Editor" asp-action="Index">Editor de Relatórios</a></li>
+                    <li><a asp-area="" asp-controller="Viewer" asp-action="Index">Visualizar Relatório</a></li>
                 </ul>
             </div>
         </div>
@@ -47,7 +49,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2021 - SalesWebMvc</p>
+            <p>&copy; 2021 - Sales Web</p>
         </footer>
     </div>
 

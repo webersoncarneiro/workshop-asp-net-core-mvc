@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+	<NewDataSet>
+	- <Veiculos>
+		<Placa>JJV-9511</Placa>
+		<Marca>WolksWagen</Marca>
+		<Modelo>Parati GIII 1.6</Modelo>
+		<Alcool>True</Alcool>
+		<Gasolina>False</Gasolina>
+		<Origem>Sao Paulo</Origem>
+		<Branco>False</Branco>
+		<Preto>True</Preto>
+		<Prata>False</Prata>
+	</Veiculos>
+	- <Veiculos>
+		<Placa>MMJ-4587</Placa>
+		<Marca>General Motors do Brasil</Marca>
+		<Modelo>Corsa Sedan Classic 16V</Modelo>
+		<Alcool>True</Alcool>
+		<Gasolina>True</Gasolina>
+		<Origem>Belo Horizonte</Origem>
+		<Branco>True</Branco>
+		<Preto>False</Preto>
+		<Prata>False</Prata>
+	</Veiculos>
+	- <Veiculos>
+		<Placa>JCT-45678</Placa>
+		<Marca>Ford do Brasil</Marca>
+		<Modelo>Eco Esport</Modelo>
+		<Alcool>False</Alcool>
+		<Gasolina>True</Gasolina>
+		<Origem>Curitiba</Origem>
+		<Branco>False</Branco>
+		<Preto>False</Preto>
+		<Prata>True</Prata>
+	</Veiculos>
+	- <Veiculos>
+		<Placa>GHJ-1230</Placa>
+		<Marca>Fiat do Brasil</Marca>
+		<Modelo>Palio Weekwend Adventure 1.8</Modelo>
+		<Alcool>False</Alcool>
+		<Gasolina>True</Gasolina>
+		<Origem>Rio de Janeiro</Origem>
+		<Branco>False</Branco>
+		<Preto>False</Preto>
+		<Prata>True</Prata>
+	</Veiculos>
+</NewDataSet>
